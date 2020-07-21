@@ -50,7 +50,18 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: [
+    'nuxt-webfontloader',
+  ],
+  /* WEB FONTS LOADER
+  CSS rules to specify families
+  font-family: 'Oswald', sans-serif;
+  */
+  webfontloader: {
+    google: {
+      families: ['Oswald:wght@400;600&display=swap'],
+    }
+  },
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
