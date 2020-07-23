@@ -28,7 +28,7 @@ export default {
   display: flex;
   justify-content: flex-end;
   font-family: 'Oswald', sans-serif;
-  padding: 28px 0px;
+  padding: 28px 0px 32px;
 
   .hdg-list__item {
     padding: 0 30px;
@@ -40,7 +40,7 @@ export default {
 
   .hdg-list__item > a {
     text-decoration: none;
-    color: #787878;
+    color: #545454;
   }
 }
 </style>
