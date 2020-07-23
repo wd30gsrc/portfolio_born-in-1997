@@ -20,13 +20,23 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 // Right area
 .fv__inner__picture {
   width: 50%;
 
   .key-img {
     font-size: 0;
+  }
+  .key-img > img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .fv__inner__picture {
+    width: 80%;
+    margin: 0 auto;
   }
 }
 </style>

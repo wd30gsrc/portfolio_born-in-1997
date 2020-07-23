@@ -3,16 +3,19 @@
     <div class="about__inner">
       <h2 class="about__inner__hdg">About</h2>
       <TheAboutProfile />
+      <TheAboutSkill />
     </div>
   </section>
 </template>
 
 <script>
 import TheAboutProfile from '@/components/TheAboutProfile.vue'
+import TheAboutSkill from '@/components/TheAboutSkill.vue'
 
 export default {
   components: {
     TheAboutProfile,
+    TheAboutSkill,
   },
   data() {
     return {}
@@ -20,7 +23,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 .about__inner {
   max-width: 1000px;
   width: 100%;
@@ -29,7 +32,7 @@ export default {
 
   .about__inner__hdg {
     font-family: 'Oswald', sans-serif;
-    font-size: 100px;
+    font-size: 10rem;
     color: #d1d1d1;
   }
 }

@@ -11,7 +11,7 @@
   </div>
 </template>
 
-<style lang="scss">
+<style scoped lang="scss">
 // Left area
 .fv__inner__caption {
   width: 50%;
@@ -39,6 +39,23 @@
     &__item--large {
       font-size: 5rem;
       line-height: 4.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .fv__inner__caption {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0 0;
+
+    .key-title {
+      position: static;
+      transform: none;
+      padding: 0 0 10px;
+    }
+    .key-profile {
+      position: static;
     }
   }
 }

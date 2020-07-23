@@ -30,4 +30,10 @@ export default {
   margin: 0 auto;
   font-family: 'Oswald', sans-serif;
 }
+
+@media screen and (max-width: 768px) {
+  .fv__inner {
+    flex-direction: column-reverse;
+  }
+}
 </style>

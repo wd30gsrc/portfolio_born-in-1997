@@ -43,4 +43,14 @@ export default {
     color: #545454;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .hdg-list {
+    justify-content: center;
+
+    .hdg-list__item:last-child {
+      padding-right: 20px;
+    }
+  }
+}
 </style>
