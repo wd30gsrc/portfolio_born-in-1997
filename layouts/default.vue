@@ -1,8 +1,21 @@
 <template>
   <div>
+    <header>
+      <CommonHeader />
+    </header>
     <Nuxt />
   </div>
 </template>
+
+<script>
+import CommonHeader from '~/components/CommonHeader.vue'
+
+export default {
+  components: {
+    CommonHeader,
+  },
+}
+</script>
 
 <style>
 html {

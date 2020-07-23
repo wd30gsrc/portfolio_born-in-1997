@@ -29,7 +29,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: ['@/assets/css/minireset.css'],
   /*
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
@@ -50,9 +50,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [
-    'nuxt-webfontloader',
-  ],
+  modules: ['nuxt-webfontloader'],
   /* WEB FONTS LOADER
   CSS rules to specify families
   font-family: 'Oswald', sans-serif;
@@ -60,7 +58,7 @@ export default {
   webfontloader: {
     google: {
       families: ['Oswald:wght@400;600&display=swap'],
-    }
+    },
   },
   /*
    ** Build configuration
