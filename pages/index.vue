@@ -1,7 +1,17 @@
 <template>
-  <div></div>
+  <div>
+    <TheKeyVisual />
+  </div>
 </template>
 
-<script></script>
+<script>
+import TheKeyVisual from '@/components/TheKeyVisual.vue'
+
+export default {
+  components: {
+    TheKeyVisual,
+  },
+}
+</script>
 
 <style></style>

@@ -40,7 +40,7 @@ export default {
 
   .hdg-list__item > a {
     text-decoration: none;
-    color: #333333;
+    color: #787878;
   }
 }
 </style>
