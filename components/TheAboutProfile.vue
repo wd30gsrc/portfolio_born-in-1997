@@ -16,12 +16,12 @@ export default {}
 <style scoped lang="scss">
 .ab-profile {
   .ab-profile__hdg {
-    font-size: 30px;
+    font-size: 2.4rem;
     font-family: 'Oswald', sans-serif;
     padding: 30px 0 0;
   }
   .ab-profile__description {
-    padding: 15px 0;
+    padding: 15px 0 40px;
   }
 }
 
