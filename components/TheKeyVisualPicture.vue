@@ -22,7 +22,11 @@ export default {
 
 <style lang="scss">
 // Right area
-.fv-inner__picture {
+.fv__inner__picture {
   width: 50%;
+
+  .key-img {
+    font-size: 0;
+  }
 }
 </style>
