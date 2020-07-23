@@ -1,15 +1,18 @@
 <template>
-  <div>
+  <main>
     <TheKeyVisual />
-  </div>
+    <TheAbout />
+  </main>
 </template>
 
 <script>
 import TheKeyVisual from '@/components/TheKeyVisual.vue'
+import TheAbout from '@/components/TheAbout.vue'
 
 export default {
   components: {
     TheKeyVisual,
+    TheAbout,
   },
 }
 </script>

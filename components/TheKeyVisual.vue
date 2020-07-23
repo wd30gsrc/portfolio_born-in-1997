@@ -1,8 +1,10 @@
 <template>
-  <div class="fv__inner">
-    <TheKeyVisualCaption />
-    <TheKeyVisualPicture />
-  </div>
+  <section class="fv">
+    <div class="fv__inner">
+      <TheKeyVisualCaption />
+      <TheKeyVisualPicture />
+    </div>
+  </section>
 </template>
 
 <script>
@@ -27,6 +29,5 @@ export default {
   width: 100%;
   margin: 0 auto;
   font-family: 'Oswald', sans-serif;
-  color: #787878;
 }
 </style>
