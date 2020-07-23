@@ -20,7 +20,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 .about__inner {
   max-width: 1000px;
   width: 100%;

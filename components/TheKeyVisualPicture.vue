@@ -20,7 +20,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 // Right area
 .fv__inner__picture {
   width: 50%;

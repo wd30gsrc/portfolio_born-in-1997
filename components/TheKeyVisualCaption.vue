@@ -11,7 +11,7 @@
   </div>
 </template>
 
-<style lang="scss">
+<style scoped lang="scss">
 // Left area
 .fv__inner__caption {
   width: 50%;
