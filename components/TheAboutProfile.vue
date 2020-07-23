@@ -24,4 +24,10 @@ export default {}
     padding: 15px 0;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .ab-profile {
+    padding: 0 16px;
+  }
+}
 </style>

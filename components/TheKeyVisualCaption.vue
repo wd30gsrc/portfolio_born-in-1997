@@ -42,4 +42,21 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .fv__inner__caption {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0 0;
+
+    .key-title {
+      position: static;
+      transform: none;
+      padding: 0 0 10px;
+    }
+    .key-profile {
+      position: static;
+    }
+  }
+}
 </style>
