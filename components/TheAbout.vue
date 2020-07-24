@@ -4,6 +4,7 @@
       <h2 class="about__inner__hdg">About</h2>
       <TheAboutProfile />
       <TheAboutSkill />
+      <TheAboutCando />
     </div>
   </section>
 </template>
@@ -11,11 +12,13 @@
 <script>
 import TheAboutProfile from '@/components/TheAboutProfile.vue'
 import TheAboutSkill from '@/components/TheAboutSkill.vue'
+import TheAboutCando from '@/components/TheAboutCando.vue'
 
 export default {
   components: {
     TheAboutProfile,
     TheAboutSkill,
+    TheAboutCando,
   },
   data() {
     return {}
