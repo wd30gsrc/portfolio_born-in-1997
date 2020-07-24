@@ -86,6 +86,20 @@ export default {
     box-shadow: 0 0 5px rgba($color: #000000, $alpha: 0.2);
     border-radius: 8px;
     position: relative;
+    overflow: hidden;
+  }
+  .cards__list__item::after {
+    content: '';
+    display: block;
+    width: 110%;
+    height: 130px;
+    position: absolute;
+    background: lemonchiffon;
+    z-index: -100;
+    bottom: -48px;
+    left: 50%;
+    border-radius: 50%;
+    transform: translateX(-50%);
   }
 
   .list-img {
@@ -96,7 +110,7 @@ export default {
     white-space: pre;
     text-align: center;
     position: absolute;
-    bottom: 40px;
+    bottom: 18px;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -121,9 +135,13 @@ export default {
       padding: 30px 0 80px;
       margin: 0 0 30px;
     }
+    .cards__list__item::after {
+      width: 160%;
+      bottom: -66px;
+    }
 
     .list-name {
-      bottom: 24px;
+      bottom: 20px;
     }
   }
 }
