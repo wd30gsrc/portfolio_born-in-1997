@@ -4,7 +4,7 @@
       <h1 class="key-title">BORN in 1997.</h1>
     </div>
     <p class="key-profile">
-      <span class="key-profile__item">Web Devloper</span>
+      <span class="key-profile__item">Web Developer</span>
       <span class="key-profile__item--large">HIKARU<br />TATENO.</span>
       <span class="key-profile__item">Welcome to my Portfolio.</span>
     </p>
