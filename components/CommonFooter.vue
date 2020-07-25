@@ -22,7 +22,7 @@ export default {
 <style lang="scss" scoped>
 .footer__inner {
   text-align: center;
-  padding: 10px 0;
+  padding: 20px 0;
   background: antiquewhite;
 }
 </style>
