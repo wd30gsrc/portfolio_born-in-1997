@@ -1,7 +1,12 @@
 <template>
   <div class="fv__inner__picture">
     <div class="key-img">
-      <img src="~/assets/imgs/top/slide-02.png" alt="" />
+      <img
+        src="~/assets/imgs/top/slide-02.png"
+        width="100%"
+        height="100%"
+        alt=""
+      />
     </div>
   </div>
 </template>
