@@ -4,15 +4,20 @@
       <CommonHeader />
     </header>
     <Nuxt />
+    <footer>
+      <CommonFooter />
+    </footer>
   </div>
 </template>
 
 <script>
 import CommonHeader from '~/components/CommonHeader.vue'
+import CommonFooter from '~/components/CommonFooter.vue'
 
 export default {
   components: {
     CommonHeader,
+    CommonFooter,
   },
 }
 </script>
