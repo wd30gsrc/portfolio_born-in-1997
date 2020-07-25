@@ -2,14 +2,34 @@
   <div class="header__inner">
     <nav>
       <ul class="hdg-list">
-        <li class="hdg-list__item"><a href="#">About</a></li>
-        <li class="hdg-list__item"><a href="#">Study&Product</a></li>
+        <li class="hdg-list__item">
+          <a v-scroll-to="'#anc-ab'" href="#anc-ab">About</a>
+        </li>
+        <li class="hdg-list__item">
+          <a v-scroll-to="'#anc-stp'" href="#anc-stp">Study&Product</a>
+        </li>
+        <li class="hdg-list__item">
+          <a
+            href="https://github.com/wd30gsrc/portfolio_born-in-1997"
+            target="_blank"
+            >Github</a
+          >
+        </li>
       </ul>
     </nav>
   </div>
 </template>
 
 <script>
+import Vue from 'vue'
+import VueScrollTo from 'vue-scrollto'
+
+Vue.use(VueScrollTo, {
+  duration: 500,
+  easing: 'ease',
+  offset: 0,
+})
+
 export default {
   data() {
     return {}
@@ -34,8 +54,21 @@ export default {
     padding: 0 30px;
   }
 
-  .hdg-list__item:last-child {
-    padding-right: 0;
+  .hdg-list__item > a {
+    position: relative;
+  }
+
+  .hdg-list__item > a[target='_blank']::after {
+    content: '';
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: url('~static/out.svg');
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    right: -15px;
+    transform: translateY(-50%);
   }
 
   .hdg-list__item > a {
@@ -47,10 +80,6 @@ export default {
 @media screen and (max-width: 768px) {
   .hdg-list {
     justify-content: center;
-
-    .hdg-list__item:last-child {
-      padding-right: 20px;
-    }
   }
 }
 </style>

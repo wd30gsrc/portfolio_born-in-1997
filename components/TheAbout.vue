@@ -1,7 +1,7 @@
 <template>
   <section class="about">
     <div class="about__inner">
-      <h2 class="about__inner__hdg">About</h2>
+      <h2 id="anc-ab" class="about__inner__hdg">About</h2>
       <TheAboutProfile />
       <TheAboutSkill />
       <TheAboutCando />

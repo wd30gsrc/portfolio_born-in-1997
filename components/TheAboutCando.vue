@@ -100,7 +100,7 @@ export default {
   }
 
   .dlist {
-    padding: 10px 0 20px;
+    padding: 10px 0 40px;
 
     &__title {
       text-align: center;
