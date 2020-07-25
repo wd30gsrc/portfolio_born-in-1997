@@ -12,8 +12,11 @@
           <a
             href="https://github.com/wd30gsrc/portfolio_born-in-1997"
             target="_blank"
-            >Github</a
-          >
+            >Github<img
+              class="icon-blank"
+              src="~/static/out.svg"
+              alt="新しいタブで開く"
+          /></a>
         </li>
       </ul>
     </nav>
@@ -54,32 +57,39 @@ export default {
     padding: 0 30px;
   }
 
+  .hdg-list__item:first-child {
+    padding-left: 0;
+  }
+
+  .hdg-list__item:last-child {
+    padding-right: 0;
+  }
+
   .hdg-list__item > a {
     position: relative;
-  }
-
-  .hdg-list__item > a[target='_blank']::after {
-    content: '';
-    display: block;
-    width: 14px;
-    height: 14px;
-    background: url('~static/out.svg');
-    background-size: contain;
-    position: absolute;
-    top: 50%;
-    right: -15px;
-    transform: translateY(-50%);
-  }
-
-  .hdg-list__item > a {
     text-decoration: none;
     color: #545454;
+  }
+
+  .icon-blank {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    padding-left: 4px;
+    box-sizing: content-box;
   }
 }
 
 @media screen and (max-width: 768px) {
   .hdg-list {
-    justify-content: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 375px;
+
+    .hdg-list__item {
+      padding: 0;
+    }
   }
 }
 </style>

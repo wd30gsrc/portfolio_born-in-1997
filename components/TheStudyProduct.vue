@@ -54,17 +54,21 @@
 
   .studyproduct {
     .stp__inner {
-      padding: 0 16px 100px;
+      padding: 0 0 100px;
     }
 
     .stp__inner__hdg {
       line-height: 10rem;
     }
 
+    .caption {
+      padding: 0 16px 0;
+    }
+
     .caption__text {
       font-size: 3rem;
       bottom: 10px;
-      right: 18px;
+      right: 30px;
     }
   }
 }
