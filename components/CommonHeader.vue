@@ -2,8 +2,12 @@
   <div class="header__inner">
     <nav>
       <ul class="hdg-list">
-        <li class="hdg-list__item"><a href="#anc-ab">About</a></li>
-        <li class="hdg-list__item"><a href="#anc-stp">Study&Product</a></li>
+        <li class="hdg-list__item">
+          <a v-scroll-to="'#anc-ab'" href="#anc-ab">About</a>
+        </li>
+        <li class="hdg-list__item">
+          <a v-scroll-to="'#anc-stp'" href="#anc-stp">Study&Product</a>
+        </li>
         <li class="hdg-list__item">
           <a
             href="https://github.com/wd30gsrc/portfolio_born-in-1997"
@@ -17,6 +21,15 @@
 </template>
 
 <script>
+import Vue from 'vue'
+import VueScrollTo from 'vue-scrollto'
+
+Vue.use(VueScrollTo, {
+  duration: 500,
+  easing: 'ease',
+  offset: 0,
+})
+
 export default {
   data() {
     return {}
