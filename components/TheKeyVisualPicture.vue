@@ -3,8 +3,8 @@
     <div class="key-img">
       <img
         src="~/assets/imgs/top/slide-02.png"
-        width="100%"
-        height="100%"
+        width="500"
+        height="500"
         alt=""
       />
     </div>
