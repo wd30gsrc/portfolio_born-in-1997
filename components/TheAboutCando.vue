@@ -52,7 +52,7 @@ export default {
   .ab-cando__hdg {
     font-family: 'Oswald', sans-serif;
     font-size: 2.4rem;
-    padding: 30px 0 20px;
+    padding: 60px 0 20px;
     text-align: center;
   }
 }
