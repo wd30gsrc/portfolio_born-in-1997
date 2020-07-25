@@ -12,6 +12,7 @@
     "lint": "npm run lint:js"
   },
   "dependencies": {
+    "@nuxtjs/google-analytics": "^2.4.0",
     "nuxt": "^2.13.0",
     "vue-scrollto": "^2.18.1"
   },

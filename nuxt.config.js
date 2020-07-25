@@ -50,7 +50,8 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['nuxt-webfontloader', 'vue-scrollto/nuxt'],
+  modules: ['nuxt-webfontloader', 'vue-scrollto/nuxt','@nuxtjs/google-analytics'],
+  googleAnalytics: {id: 'UA-173519866-1'},
   /* WEB FONTS LOADER
   CSS rules to specify families
   font-family: 'Oswald', sans-serif;
