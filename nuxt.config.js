@@ -21,12 +21,14 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: '立野輝のポートフォリオです。私のスキルや制作物をご覧いただけます。',
+        content:
+          '立野輝のポートフォリオです。私のスキルや制作物をご覧いただけます。',
       },
       {
         hid: 'keyword',
         name: 'keyword',
-        content: '立野輝, Born in 1997., コーダー, フロントエンドエンジニア, Webデザイナー,',
+        content:
+          '立野輝, Born in 1997., コーダー, フロントエンドエンジニア, Webデザイナー,',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
@@ -55,8 +57,12 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['nuxt-webfontloader', 'vue-scrollto/nuxt','@nuxtjs/google-analytics'],
-  googleAnalytics: {id: 'UA-173519866-1'},
+  modules: [
+    'nuxt-webfontloader',
+    'vue-scrollto/nuxt',
+    '@nuxtjs/google-analytics',
+  ],
+  googleAnalytics: { id: 'UA-173519866-1' },
   /* WEB FONTS LOADER
   CSS rules to specify families
   font-family: 'Oswald', sans-serif;
