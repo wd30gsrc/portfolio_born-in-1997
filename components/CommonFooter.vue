@@ -7,14 +7,13 @@
 <script>
 export default {
   data() {
-    return {}
+    return {
+      nowYear: null,
+    }
   },
-  computed: {
-    nowYear() {
-      const date = new Date()
-      const nowYear = date.getFullYear()
-      return nowYear
-    },
+  created() {
+    const date = new Date()
+    this.nowYear = date.getFullYear()
   },
 }
 </script>
