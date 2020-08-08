@@ -47,14 +47,14 @@ export default {
 .loader,
 .loader:before,
 .loader:after {
-  background: coral;
+  background: #ffffff;
   -webkit-animation: load1 1s infinite ease-in-out;
   animation: load1 1s infinite ease-in-out;
   width: 1em;
   height: 4em;
 }
 .loader {
-  color: coral;
+  color: #ffffff;
   text-indent: -9999em;
   margin: 88px auto;
   position: relative;

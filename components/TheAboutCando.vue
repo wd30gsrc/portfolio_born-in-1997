@@ -97,6 +97,8 @@ export default {
 @media screen and (max-width: 768px) {
   .ab-cando {
     padding: 0 16px;
+    max-width: 500px;
+    margin: 0 auto;
   }
 
   .dlist {
