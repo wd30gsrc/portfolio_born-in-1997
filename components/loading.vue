@@ -16,7 +16,9 @@ export default {
       this.loading = true
     },
     finish() {
-      this.loading = false
+      setTimeout(() => {
+        this.loading = false
+      }, 500)
     },
   },
 }
@@ -34,7 +36,7 @@ export default {
 
 .loadingMask {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   position: fixed;
   top: 0;
   left: 0;
