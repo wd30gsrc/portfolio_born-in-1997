@@ -31,7 +31,7 @@ export default {
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
-  padding: 120px 0 0;
+  padding: 60px 0 0;
 
   .about__inner__hdg {
     font-family: 'Oswald', sans-serif;
