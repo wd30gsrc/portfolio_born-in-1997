@@ -14,7 +14,7 @@
   "dependencies": {
     "@nuxtjs/google-analytics": "^2.4.0",
     "nuxt": "^2.13.0",
-    "swiper": "^5.4.5",
+    "swiper": "^6.5.1",
     "vue-awesome-swiper": "^4.1.1",
     "vue-scrollto": "^2.18.1"
   },
